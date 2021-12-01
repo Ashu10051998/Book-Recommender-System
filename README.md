@@ -1,2 +1,5 @@
 # Book-Recommender-System
-This project is a basic book Recomender system
+A book recommendation system is a type of recommendation system where we have to recommend similar books to the reader based on his interest. The books recommendation system is used by online websites which provide ebooks like google play books, open library, good Read’s, etc.In simple words, a recommendation system is any system that automatically suggests content for website readers and users. These systems were evolved as intelligent algorithms, which can generate results in the form of recommendations to users. A variety of techniques have been proposed for performing recommendations.
+So in this project we have firstly done the data preprocess drop the url columns of the book dataset . We also removed the duplicate values of the dataset and replaced the  null values with ‘others’. We also replaced the invalid years with the current year . And after data preprocessing we have done exploratory data analysis on the dataset .
+And after doing the EDA we have build the recommendation system for user which will recommend the books on basis of Collaborative filtering, popularity based books and recommendation by same authors and publishers.
+
